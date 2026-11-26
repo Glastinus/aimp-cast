@@ -1,0 +1,18 @@
+# build output
+build/
+*.obj
+*.exp
+*.lib
+*.pdb
+*.ilk
+
+# AIMP SDK headers are © Artem Izmaylov and not redistributed; see README
+third_party/aimp_sdk/*
+!third_party/aimp_sdk/README.md
+
+# runtime files hold local IP addresses and speaker IDs
+*.log
+*.ini
+
+# Firefox prototype is a separate project for now
+firefox/
