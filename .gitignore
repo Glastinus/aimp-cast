@@ -16,3 +16,6 @@ third_party/aimp_sdk/*
 
 # Firefox prototype is a separate project for now
 firefox/
+
+# release packages
+dist/
